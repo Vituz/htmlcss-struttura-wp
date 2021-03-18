@@ -14,29 +14,58 @@
     width: 90%;
     background-color: grey;
     margin: auto;
-    height: 800px;
+    height: auto;
 }
 
-/* Header */
+/* Header CSS */
+.logo, .top_nav{
+    height: 50px;
+    margin: 5px 0;
+}
+
 .logo{
     background-color: khaki;
-    height: 50px;
 }
 
 .top_nav{
     background-color: lavender;
-    height: 50px;
 }
 
 .img{
     margin: auto;
     border: 1px solid black;
-    width: auto;
     border-radius: 5px;
+    background-color: darkgreen;
+    margin: 5px 0;
 }
 
 .image_text{
     height: 200px;
     background-image: url("");
 }
-/* Header */
+/* Header CSS */
+
+/* Main CSS */
+.content_main{
+    width: 100%;  
+}
+
+.title{
+    background-color: darkorchid;
+    height: 80px;
+}
+
+.sidebar{
+    width: 25%;
+    background-color: deepskyblue;
+    float: left;
+    height: 300px;
+}
+
+.center{
+    width: 50%;
+    height: 400px;
+    background-color: greenyellow;
+    float: left;
+}
+/* /Main CSS */
