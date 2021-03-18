@@ -56,16 +56,26 @@
 }
 
 .sidebar{
-    width: 25%;
+    width: 24%;
     background-color: deepskyblue;
     float: left;
     height: 300px;
 }
 
 .center{
-    width: 50%;
+    width: 48%;
     height: 400px;
     background-color: greenyellow;
     float: left;
+    margin: 0 10px;
 }
 /* /Main CSS */
+
+/* Footer CSS */
+footer{
+    width: 90%;
+    margin: auto;
+    background-color: magenta;
+    height: 50px;
+}
+/* Footer CSS */
